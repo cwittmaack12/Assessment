@@ -48,13 +48,14 @@ let num = bigOrSmallArray[0]
 
 
 for(let i = 0; i < bigOrSmallArray.length; i++)
-  if(num > 100){
+  if(bigOrSmallArray[i] > 100){
     answers.push('big')
   }
   else if(num <= 100){
     answers.push('small')
-  console.log(answers)
   }
+  console.log(answers)
+ 
 
 
 
